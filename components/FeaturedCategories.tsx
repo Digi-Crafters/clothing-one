@@ -76,7 +76,7 @@ const FeaturedCategories = () => {
       name: "ARTISAN CRAFTS",
       description: "Handcrafted excellence from master artisans",
       image:
-        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?q=80&w=711&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       featured: false,
       itemCount: "95+",
     },

@@ -59,7 +59,7 @@ const BrandStory = () => {
       description:
         "Launched our sustainability initiative, pledging to use only ethically sourced materials and fair labor practices.",
       image:
-        "https://images.unsplash.com/photo-1491931968361-4a7e9444a657?w=800&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       stats: "30 STORES",
     },
     {

@@ -31,26 +31,16 @@ const Hero = () => {
           width={1920}
           height={1080}
           className="w-full h-full object-cover"
-          // style={{
-          //   transform: `translate(${mousePosition.x * 0.01}px, ${mousePosition.y * 0.01}px)`
-          // }}
         />
       </div>
+      
       {/* Main Hero Content */}
-      <div className="relative z-40 flex flex-col items-center justify-center min-h-[80vh] px-6 md:px-8 text-center">
+      <div className="relative z-40 flex flex-col items-center justify-center min-h-[80vh] px-6 md:px-8 text-center pt-16 sm:pt-0 mt-10">
         <div
           className={`transition-all duration-1500 delay-1000 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <div className="mb-6">
-            <div className="inline-flex items-center space-x-2  bg-opacity-10 backdrop-blur-sm px-4 py-2 mb-8">
-              <Star className="w-4 h-4 text-white" />
-              <span className="text-white text-sm font-light tracking-wide">
-                PREMIUM COLLECTION 2025
-              </span>
-            </div>
-          </div>
 
           <h1 className="text-4xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-none tracking-tighter">
             <div className="relative inline-block">

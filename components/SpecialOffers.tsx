@@ -113,7 +113,7 @@ const SpecialOffers = () => {
     <section
       ref={sectionRef}
       id="special-offers"
-      className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 py-20 md:py-32 font-mono relative overflow-hidden"
+      className="min-h-screen bg-black py-20 md:py-32 font-mono relative overflow-hidden"
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
@@ -139,10 +139,9 @@ const SpecialOffers = () => {
             </span>
           </div>
 
-          <h2 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-none tracking-tighter">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-10 leading-none tracking-tighter">
             SPECIAL
-            <br />
-            <span className="bg-red-600 text-white px-4 py-2">OFFERS</span>
+            <span className="bg-white text-black px-4 py-2 lg:mt-6 ml-8">OFFERS</span>
           </h2>
 
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed tracking-wide mb-8">
