@@ -18,8 +18,7 @@ const Header = () => {
     { name: 'FEATURED CATEGORIES', href: '#featured-categories' },
     { name: 'TRENDING', href: '#trending' },
     { name: 'SPECIAL OFFERS', href: '#special-offers' },
-    { name: 'BRAND STORY', href: '#brand-story' },
-    { name: 'TESTIMONIALS', href: '#testimonials' }
+    { name: 'BRAND STORY', href: '#brand-story' }
   ]
 
   return (
@@ -30,12 +29,12 @@ const Header = () => {
           : 'bg-transparent'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-8">
-        <div className="flex items-center justify-between h-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="text-white font-black text-xl md:text-2xl tracking-tighter">
+            <div className="text-white font-black text-lg sm:text-xl md:text-2xl tracking-tighter mt-4 sm:mt-0">
               <span className="bg-white text-black px-2 py-1">OUR</span>
               <span className="ml-2">WORLD</span>
             </div>
@@ -76,7 +75,7 @@ const Header = () => {
           : 'max-h-0 opacity-0 overflow-hidden'
       }`}>
         <div className="bg-black/95 backdrop-blur-md border-t border-white/10">
-          <div className="px-6 py-8 space-y-6">
+          <div className="px-4 sm:px-6 py-6 sm:py-8 space-y-6">
             {/* Mobile Navigation Links */}
             <nav className="space-y-4">
               {navLinks.map((link, index) => (
@@ -84,7 +83,7 @@ const Header = () => {
                   key={index}
                   href={link.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="block text-white text-lg font-medium tracking-wide hover:text-gray-300 transition-colors duration-300 border-b border-white/10 pb-3"
+                  className="block text-white text-base sm:text-lg font-medium tracking-wide hover:text-gray-300 transition-colors duration-300 border-b border-white/10 pb-3"
                 >
                   {link.name}
                 </a>
