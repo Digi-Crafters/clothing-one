@@ -24,7 +24,7 @@ const Hero = () => {
       onMouseMove={handleMouseMove}
     >
       {/* SVG Wave Background */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute top-0 left-0 w-full h-[130vh] z-0">
         <Image
           src="/wave-haikei.svg"
           alt="Hero Wave Background"
@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
       
       {/* Main Hero Content */}
-      <div className="relative z-40 flex flex-col items-center justify-center min-h-[80vh] px-6 md:px-8 text-center pt-16 sm:pt-0 mt-10">
+      <div className="relative z-40 flex flex-col items-center justify-center min-h-[80vh] px-6 md:px-8 text-center pt-16 sm:pt-0 mt-24">
         <div
           className={`transition-all duration-1500 delay-1000 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
@@ -49,7 +49,7 @@ const Hero = () => {
             </div>
             <br />
             <div className="relative inline-block mt-4">
-              <span className="bg-white text-black px-4 py-2">OUR</span>
+              <span className="bg-white text-black px-4">OUR</span>
               <span className="ml-4">WORLD</span>
             </div>
           </h1>
